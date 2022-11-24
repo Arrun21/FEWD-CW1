@@ -12,6 +12,7 @@ const FoodItem = ({ food }) => {
         <p>Difficulty: {food.difficulty}</p>
         <p>{food.description}</p>
         <p>{food.method}</p>
+        <p id="ingredient-css">Ingredients</p>
       </Accordion.Body>
     </div>
   );
@@ -23,9 +24,7 @@ const Ingredient = ({ ingredient }) => {
   return (
     <div>
       <Accordion.Body>
-        {ingredient.quantity}
-        {ingredient.measure}
-        {ingredient.ingredientName}
+        {ingredient.quantity} {ingredient.measure} {ingredient.ingredientName}
       </Accordion.Body>
     </div>
   );
