@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import DisplayFoodItems from "./DisplayFoodItems";
+import FetchNutrition from "./FetchNutrition";
 
 function Search({ details }) {
     const [searchField, setSearchField] = useState("");
+    
     const filtered = details.filter((entry) => {
         return entry.name.toLowerCase().includes(searchField.toLowerCase());
     });
