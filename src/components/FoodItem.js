@@ -11,8 +11,8 @@ const FoodItem = ({ food }) => {
         <p><strong>Serves: </strong>{food.serves}</p>
         <p><strong>Difficulty: </strong>{food.difficulty}</p>
         <p>{food.description}</p>
-        <p id="method-word">Method</p>
-        <p id="method">{food.method}</p>
+        <p id="method-heading">Method</p>
+        <p id="foodmethod">{food.method}</p>
         <p id="ingredient-css">Ingredients</p>
       </Accordion.Body>
     </div>
