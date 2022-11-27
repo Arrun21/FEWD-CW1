@@ -6,8 +6,8 @@ export const items = [
     method:'1. Heat the oil in a large frying pan over a medium heat. Add the onion and cook for around 7 minutes, stirring occasionally, or until starting to brown. Add the sausage meat and break up into small pieces with a wooden spoon. Cook for 3–4 minutes or until golden. Stir in the garlic then the tomato purée and cook for a further 2–3 minutes.\n2. Pour in the tomatoes. Use 400ml/14fl oz water to swill out the tins and add to the pan along with the oregano, chilli flakes and sugar. Simmer the sauce over a medium–low heat for 10 minutes so it can thicken slightly. Stir the kale into the sauce and cook for a further 5–10 minutes, until the leaves have softened. Add a splash of water to the pan if the sauce is looking too thick. Taste and season with salt, if needed.\n3. Meanwhile, bring a large saucepan of salted water to the boil. Add the pasta and cook according to packet instructions. Drain the pasta, reserving a mugful of the pasta water. Add the pasta to the sauce in the frying pan and stir together, loosening with a splash of pasta water if needed to help coat the pasta.\n4. Remove from the heat, divide between bowls, top with the grated cheese and serve.' ,
     ingredients: [{
       ingredientName: 'olive oil',
-      quantity: 1,
-      measure: 'tbsp'
+      quantity: 14,
+      measure: 'grams'
     },
     {
       ingredientName: 'pork sausages',
@@ -38,13 +38,13 @@ export const items = [
     method: '1. Preheat the oven to 200C/400F/Gas 6.\n2. Wipe the apples and cut them into quarters,then remove the cores and slice each piece in two.Put them into a pan,taste a slice for sweetness and add a sprinkling of sugar accordingly.Add a tablespoon of water or apple juice and cook over a medium heat for about five minutes, until the apples start to soften.\n3. Transfer the apple mixture to a shallow ovenproof pie dish.\n4. Blend the flour and butter in a food processor for a few seconds, until the mixture looks like breadcrumbs.\n5. Stir in the oats and the brown sugar and sprinkle over the cooked apples in the pie dish. Transfer to the oven to bake for 30 minutes or until crisp and golden-brown on top.',
     ingredients: [{
       ingredientName: 'Bramley apples',
-      quantity: 1,
-      measure: 'kg'
+      quantity: 1000,
+      measure: 'grams'
     },
     {
       ingredientName: 'apple juice',
-      quantity: 1,
-      measure: 'tbsp'
+      quantity: 15,
+      measure: 'grams'
     },
     {
       ingredientName: 'plain flour',
@@ -70,33 +70,33 @@ export const items = [
     method: '1. In a bowl, mix together the paprika, chilli powder, lemon juice, ginger, garlic and salt.\n2. Add the prawns to the mixture. For maximum flavour, leave them to marinate for an hour or so.\n3. Heat a griddle pan and add a little olive oil.\n4. Add the prawns to the pan and griddle for a few minutes, turning occasionally until they are cooked through. Serve straightaway, with finger bowls.',
     ingredients: [{
       ingredientName: 'paprika',
-      quantity: 2,
-      measure: 'tbsp'
+      quantity: 17,
+      measure: 'grams'
     },
     {
       ingredientName: 'mild chilli powder',
-      quantity: 2,
-      measure: 'tbsp'
+      quantity: 17,
+      measure: 'grams'
     },
     {
       ingredientName: 'lemon juice',
       quantity: 250,
-      measure: 'ml'
+      measure: 'grams'
     },
     {
       ingredientName: 'chopped ginger',
-      quantity: 1.5,
-      measure: 'tsp'
+      quantity: 3,
+      measure: 'grams'
     },
     {
       ingredientName: 'garlic cloves',
-      quantity: 1,
-      measure: 'tbsp'
+      quantity: 15,
+      measure: 'grams'
     },
     {
       ingredientName: 'salt',
-      quantity: 1,
-      measure: 'tsp'
+      quantity: 6,
+      measure: 'grams'
     },
     {
       ingredientName: 'raw prawns',
@@ -105,8 +105,8 @@ export const items = [
     },
     {
       ingredientName: 'olive oil',
-      quantity: 1,
-      measure: 'tbsp'
+      quantity: 14,
+      measure: 'grams'
     }],
     vegan: false,
     vegetarian: false,
@@ -132,28 +132,28 @@ export const items = [
     },
     {
       ingredientName: 'soy sauce',
-      quantity: 3,
-      measure: 'tbsp'
+      quantity: 48,
+      measure: 'grams'
     },
     {
       ingredientName: 'mirin',
-      quantity: 2,
-      measure: 'tbsp'
+      quantity: 32,
+      measure: 'grams'
     },
     {
       ingredientName: 'sugar',
-      quantity: 2,
-      measure: 'tbsp'
+      quantity: 24,
+      measure: 'grams'
     },
     {
       ingredientName: 'Curry powder',
-      quantity: 1,
-      measure: 'tbsp'
+      quantity: 7,
+      measure: 'grams'
     },
     {
       ingredientName: 'potato starch',
-      quantity: 1.5,
-      measure: 'tbsp'
+      quantity: 11,
+      measure: 'grams'
     },
     {
       ingredientName: 'udon noodles',
@@ -162,8 +162,8 @@ export const items = [
     },
     {
       ingredientName: 'vegetable oil',
-      quantity: 1.5,
-      measure: 'tbsp'
+      quantity: 20,
+      measure: 'grams'
     },
     {
       ingredientName: 'tofu',
@@ -195,7 +195,7 @@ export const items = [
     method: '1. Heat the oil in a deep frying pan or wide, flameproof casserole. Add the onions and celery and fry over a high heat for about 3 minutes, until starting to soften. Add the mince and fry until browned, breaking it up with two wooden spoons as it browns.\n2. Add the garlic and tomato purée and stir for a few seconds. Stir in the tomatoes, Worcestershire sauce and redcurrant jelly. Add stock (you may need the full amount stock if your pan is very wide) and season with salt and pepper. Cover and simmer over a low heat for 30–35 minutes.\n3. Preheat the oven to 200C/180C Fan/Gas 6.\n4. Melt the butter in a lidded frying pan, add the mushrooms and fry over a high heat for a minute. Cover with a lid and cook for 2 minutes. Remove the lid and fry over a high heat for 2 minutes, until the liquid has evaporated. Add the mushrooms and thyme to the mince and stir well.\n5. Cook the pasta in boiling salted water until al dente. Drain well and run under cold water. Stir the pasta into the mince and check the seasoning.\n6. Spoon into a large, shallow ovenproof dish. Sprinkle with the cheeses and bake for 25–30 minutes, or until golden and bubbling around the edges. Serve piping hot with a green salad or tomato salad.',
     ingredients: [{
       ingredientName: 'olive oil',
-      quantity: 1,
+      quantity: 14,
       measure: 'tbsp'
     },
     {
@@ -220,8 +220,8 @@ export const items = [
     },
     {
       ingredientName: 'tomato purée',
-      quantity: 2,
-      measure: 'tbsp'
+      quantity: 29,
+      measure: 'grams'
     },
     {
       ingredientName: 'tins chopped tomatoes',
@@ -231,22 +231,22 @@ export const items = [
     {
       ingredientName: 'beef stock',
       quantity: 500,
-      measure: 'ml'
+      measure: 'grams'
     },
     {
       ingredientName: 'Worcestershire sauce',
-      quantity: 2,
-      measure: 'tsp'
+      quantity: 34,
+      measure: 'grams'
     },
     {
       ingredientName: 'redcurrant jelly',
-      quantity: 2,
-      measure: 'tsp'
+      quantity: 12,
+      measure: 'grams'
     },
     {
       ingredientName: 'butter',
-      quantity: 1,
-      measure: 'tbsp'
+      quantity: 13.47,
+      measure: 'grams'
     },
     {
       ingredientName: 'chestnut mushrooms',
@@ -255,8 +255,8 @@ export const items = [
     },
     {
       ingredientName: 'chopped fresh thyme leaves',
-      quantity: 1,
-      measure: 'tbsp'
+      quantity: 3,
+      measure: 'grams'
     },
     {
       ingredientName: 'penne pasta',
@@ -288,8 +288,8 @@ export const items = [
     method: '1. Heat half of the olive oil in a saucepan, add the garlic, leek, spring onion and ginger, lower the heat and fry for ten minutes.\n2. Add the wine and chestnuts and cook for another five minutes.\n3. Add the reserved roe and cream and cook for a further five minutes, then season with salt and freshly ground black pepper.\n4. Heat the remaining oil in a frying pan and fry the scallops over a high heat for two minutes on each side.\n5. To serve, pile the chestnuts onto each plate and top with three scallops per serving.',
     ingredients: [{
       ingredientName: 'olive oil',
-      quantity: 3,
-      measure: 'tbsp'
+      quantity: 41,
+      measure: 'grams'
     },
     {
       ingredientName: 'garlic cloves',
@@ -314,7 +314,7 @@ export const items = [
     {
       ingredientName: 'white wine',
       quantity: 200,
-      measure: 'ml'
+      measure: 'grams'
     },
     {
       ingredientName: 'pre-cooked and peeled chestnuts',
@@ -324,7 +324,7 @@ export const items = [
     {
       ingredientName: 'whipping cream',
       quantity: 200,
-      measure: 'ml'
+      measure: 'grams'
     },
     {
       ingredientName: ' scallops in the shell, cleaned, roes removed',
@@ -366,13 +366,13 @@ export const items = [
     },
     {
       ingredientName: 'olive oil',
-      quantity: 3,
+      quantity: 41,
       measure: 'tbsp'
     },
     {
       ingredientName: 'fresh coriander',
-      quantity: 3,
-      measure: 'tbsp'
+      quantity: 5,
+      measure: 'grams'
     },
     {
       ingredientName: 'asparagus spears',
@@ -396,18 +396,18 @@ export const items = [
     },
     {
       ingredientName: 'white wine vinegar',
-      quantity: 1,
-      measure: 'tsp'
+      quantity: 3,
+      measure: 'grams'
     },
     {
       ingredientName: 'dijon mustard',
-      quantity: 1,
-      measure: 'tsp'
+      quantity: 3,
+      measure: 'grams'
     },
     {
       ingredientName: ' rapeseed oil or light olive oil',
       quantity: 200,
-      measure: 'ml'
+      measure: 'grams'
     }],
 
     vegan: false,
@@ -429,8 +429,8 @@ export const items = [
     },
     {
       ingredientName: 'golden syrup',
-      quantity: 2,
-      measure: 'tbsp'
+      quantity: 27,
+      measure: 'grams'
     },
     {
       ingredientName: 'unsalted butter',
@@ -440,17 +440,17 @@ export const items = [
     {
       ingredientName: 'double cream',
       quantity: 80,
-      measure: 'ml'
+      measure: 'grams'
     },
     {
       ingredientName: 'olive oil',
-      quantity: 3,
-      measure: 'tbsp'
+      quantity: 41,
+      measure: 'grams'
     },
     {
       ingredientName: 'sea salt',
-      quantity: 0.5,
-      measure: 'tsp'
+      quantity: 3,
+      measure: 'grams'
     },
     {
       ingredientName: 'dark chocolate',
@@ -469,8 +469,8 @@ export const items = [
     },
     {
       ingredientName: 'caster sugar',
-      quantity: 1,
-      measure: 'tbsp'
+      quantity: 12,
+      measure: 'grams'
     },
     {
       ingredientName: ' whipped double cream,to serve',
@@ -497,13 +497,13 @@ export const items = [
     },
     {
       ingredientName: 'brandy',
-      quantity: 2,
-      measure: 'tbsp'
+      quantity: 4,
+      measure: 'grams'
     },
     {
       ingredientName: 'pouring double cream',
       quantity: 150,
-      measure: 'ml'
+      measure: 'grams'
     },
     {
       ingredientName: 'full-fat mascarpone cheese, at room temperature',
