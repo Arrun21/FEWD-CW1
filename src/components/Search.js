@@ -2,6 +2,20 @@ import React, { useState } from "react";
 import DisplayFoodItems from "./DisplayFoodItems";
 import FetchNutrition from "./FetchNutrition";
 
+
+// const CheckBox = (props) =>{
+//     return (
+//     <div>
+//         <input 
+//             type="checkbox"
+//             checked={props.checked}
+//             onChange={e => props.onChange(e.target.checked)}
+//             name={props.Name}
+//         />
+//     </div>
+//     )
+// }
+
 function Search({ details }) {
     const [searchField, setSearchField] = useState("");
     

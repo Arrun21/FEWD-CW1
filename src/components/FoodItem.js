@@ -1,10 +1,11 @@
 import React from "react";
 import Accordion from 'react-bootstrap/Accordion';
 
-const FoodItem = ({ food }) => {
+const FoodItem = (params) => {
+  const food = params.food;
   return (
     <div>
-      <Accordion.Header>{food.name}</Accordion.Header>
+      <Accordion.Header onClick={()=>params.onClick(food.name)}>{food.name}</Accordion.Header>
       <Accordion.Body>
         <p id="category">{food.category}</p>
         <p><strong>Time: </strong>{food.time} mins</p>
