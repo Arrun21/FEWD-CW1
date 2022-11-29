@@ -20,7 +20,7 @@ export const items = [
       measure: 'grams'
     },
     {
-      ingredientName: 'onion',
+      ingredientName: 'onions',
       quantity: 275,
       measure: 'grams'
     }],
