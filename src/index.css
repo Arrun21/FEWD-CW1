@@ -18,10 +18,6 @@ code {
   margin-bottom: -1em ;
 }
 
-.search{
-  width:30%;
-}
-
 #foodmethod{
   white-space:pre-wrap;
 }
@@ -39,4 +35,24 @@ code {
 #nutrition-css{
   font-weight: bold;
   font-size:19px;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width:100%;
+  gap: 30px;
+}
+
+.dishContainer{
+  flex: 1;
+}
+
+.MenuContainer{
+  flex: 1;
+}
+
+.ShoppingContainer{
+  flex: 1;
 }

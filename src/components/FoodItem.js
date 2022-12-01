@@ -7,6 +7,8 @@ const FoodItem = (params) => {
     <div>
       <Accordion.Header onClick={()=>params.onClick(food.name)}>{food.name}</Accordion.Header>
       <Accordion.Body>
+        <button onClick={()=>params.addtomenu(prevArray => [...prevArray, food])} disabled={params.list?.some((e)=>e===food)}>Add to menu</button>
+        <button onClick={()=>params.addtoshopping(prevArray => [...prevArray, food])} disabled={params.shoppingList?.some((e)=>e===food)}>Add to shopping list</button>
         <p id="category">{food.category}</p>
         <p><strong>Time: </strong>{food.time} mins</p>
         <p><strong>Serves: </strong>{food.serves}</p>

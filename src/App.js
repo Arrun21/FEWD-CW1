@@ -7,8 +7,6 @@ console.log( {items})
 function App() {
   return (
     <div>
-      <h1>Recipes</h1>
-      {/* <DisplayFoodItems foodList={items} /> */}
       <Search details={items}/>
     </div>
   );

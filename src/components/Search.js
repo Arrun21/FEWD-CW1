@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import DisplayFoodItems from "./DisplayFoodItems";
+import DisplayMenuItems from "./DisplayMenuItems";
+import DisplayShoppingList from "./DisplayShoppingList";
 import FetchNutrition from "./FetchNutrition";
+import MenuItem from "./MenuItem";
 
 
 const CheckBox = (props) => {
@@ -24,12 +27,17 @@ function Search({ details }) {
     const [ingredient3, setIngredient3] = useState(false);
     const [ingredient4, setIngredient4] = useState(false);
     const [finalData, setFinalData] = useState(null);
+    const [MenuData, setMenuData] = useState([]);
+    const [ShoppingList, setShoppingList] = useState([]);
 
     var filtered = details.filter((entry) => {
         return entry.name.toLowerCase().includes(searchField.toLowerCase());
     });
 
+
+
     useEffect(() => {
+        console.log(MenuData)
         if (finalData !== filtered){
             if(ingredient1!=true && ingredient2!=true && ingredient3!= true && ingredient4 !=true){
                 setFinalData(filtered)
@@ -73,7 +81,9 @@ function Search({ details }) {
 
     if (finalData !== null) {
         return (
-            <div>
+            <div className="wrapper">
+                <div className="dishContainer">
+                <h1>Recipes</h1>
                 <div class="search">
                     <input
                         className="form-control"
@@ -91,7 +101,14 @@ function Search({ details }) {
                     {"nuts"}
                     <CheckBox checked={ingredient4} onChange={setIngredient4} name={"nuts"} disabled={ingredient2||ingredient3||ingredient1}/>
                 </div>
-                <DisplayFoodItems foodList={finalData} />
+                <DisplayFoodItems foodList={finalData} addtomenu={setMenuData} addtoshopping={setShoppingList} menu={MenuData} shoppingList={ShoppingList}/>
+                </div>
+                <div className="MenuContainer">
+                {MenuData.length > 0 && <><h1>Menu</h1><DisplayMenuItems foodList={MenuData} addtomenu={setMenuData}/></>}
+                </div>
+                <div className="ShoppingContainer">
+                {ShoppingList.length > 0 && <><h1>Shopping List</h1><DisplayShoppingList foodList={ShoppingList} addtomenu={setShoppingList}/></>}   
+                </div>
             </div>
         );
     }
