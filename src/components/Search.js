@@ -83,7 +83,7 @@ function Search({ details }) {
             <div className="wrapper">
                 <div className="dishContainer">
                 <h1>Recipes</h1>
-                <div class="search">
+                <div>
                     <input
                         className="form-control"
                         type="text"
