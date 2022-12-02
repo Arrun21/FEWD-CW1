@@ -37,7 +37,6 @@ function Search({ details }) {
 
 
     useEffect(() => {
-        console.log(MenuData)
         if (finalData !== filtered){
             if(ingredient1!=true && ingredient2!=true && ingredient3!= true && ingredient4 !=true){
                 setFinalData(filtered)

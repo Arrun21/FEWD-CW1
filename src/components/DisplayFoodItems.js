@@ -3,6 +3,7 @@ import Accordion from "react-bootstrap/Accordion";
 import FoodItem from "./FoodItem";
 import { Ingredient } from "./FoodItem";
 import FetchNutrition from "./FetchNutrition";
+import Review from "./Review";
 
 const DisplayFoodItems = (params) => {
   const [searchField, setSearchField] = useState("");
@@ -23,6 +24,7 @@ const foodList = params.foodList;
             return <Ingredient ingredient={ingre} />;
             })}
             <FetchNutrition query={searchField} /> 
+            <Review food={food}/>
           </Accordion.Item>
         );
       })}
