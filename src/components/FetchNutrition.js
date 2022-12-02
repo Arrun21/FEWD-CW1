@@ -35,22 +35,7 @@ const FetchData = ({ query }) => {
       .then((response) => response.json())
       .then((incomingData) => {
         console.log(incomingData);
-        if (incomingData.items.length !== 0) {
-          // let TNutrition ={
-          //   sugar_g: 0,
-          //   fiber_g: 0,
-          //   serving_size_g: 0,
-          //   sodium_mg: 0,
-          //   name: 0,
-          //   potassium_mg: 0,
-          //   fat_saturated_g: 0,
-          //   fat_total_g: 0,
-          //   calories: 0,
-          //   cholesterol_mg: 0,
-          //   protein_g: 0,
-          //   carbohydrates_total_g: 0,
-          // }
-          
+        if (incomingData.items.length !== 0) {      
            setNutrition(incomingData.items[0]);
         }
       });

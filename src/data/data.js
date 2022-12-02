@@ -29,7 +29,8 @@ export const items = [
     time: 30,
     serves: 4,
     difficulty: 'Easy',
-    category: 'Main'
+    category: 'Main',
+    review: []
   },
   {
     id: '2',
@@ -61,7 +62,8 @@ export const items = [
     time: 30,
     serves: 3,
     difficulty: 'Easy',
-    category: 'Dessert'
+    category: 'Dessert',
+    review: []
   },
   {
     id: '3',
@@ -113,7 +115,8 @@ export const items = [
     time: 40,
     serves: 2,
     difficulty: 'Easy',
-    category: 'Starter'
+    category: 'Starter',
+    review: []
   },
   {
     id: '4',
@@ -186,7 +189,8 @@ export const items = [
     time: 30,
     serves: 4,
     difficulty: 'Medium',
-    category: 'Main'
+    category: 'Main',
+    review: []
   },
   {
     id: '5',
@@ -279,7 +283,8 @@ export const items = [
     time: 150,
     serves: 6,
     difficulty: 'Medium',
-    category: 'Main'
+    category: 'Main',
+    review: []
   },
   {
     id: '6',
@@ -337,7 +342,8 @@ export const items = [
     time: 60,
     serves: 6,
     difficulty: 'Medium',
-    category: 'Starter'
+    category: 'Starter',
+    review: []
   },
   {
     id: '7',
@@ -415,7 +421,8 @@ export const items = [
     time: 35,
     serves: 4,
     difficulty: 'Medium',
-    category: 'Starter'
+    category: 'Starter',
+    review: []
   },
   {
     id: '8',
@@ -483,7 +490,8 @@ export const items = [
     time: 150,
     serves: 4,
     difficulty: 'Medium',
-    category: 'Dessert'
+    category: 'Dessert',
+    review: []
   },
   {
     id: '9',
@@ -516,6 +524,7 @@ export const items = [
     time: 40,
     serves: 12,
     difficulty: 'Easy',
-    category: 'Dessert'
+    category: 'Dessert',
+    review: []
   }
 ];

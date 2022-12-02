@@ -91,7 +91,7 @@ function Search({ details }) {
                         placeholder="Search ..."
                         onChange={(e) => setSearchField(e.target.value)}
                     />
-                    <p>Only select one filter each time</p>
+                    <h4 id="filter-text">Filter By</h4>
                     {"ginger"}
                     <CheckBox checked={ingredient1} onChange={setIngredient1} name={"ginger"} disabled={ingredient2||ingredient3||ingredient4} />
                     {"onions"}
