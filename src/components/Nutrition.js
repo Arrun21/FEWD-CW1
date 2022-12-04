@@ -2,7 +2,7 @@ import React from "react";
 import { Accordion } from "react-bootstrap";
 const Nutrition = ({ item }) => {
   return (
-    <div>
+    <div className="accordion-color">
       <Accordion.Body>
         <p id="nutrition-css">Nutritional Information</p>
         <p>Serving size:{item.serving_size_g} g</p>

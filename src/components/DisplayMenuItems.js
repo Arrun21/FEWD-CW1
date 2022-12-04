@@ -25,7 +25,7 @@ const DisplayMenuItems = (params) => {
 
   return (
     <>
-      {starterList.length > 0 && <><h2>Starters</h2>
+      {starterList.length > 0 && <><h4>Starters</h4>
         <Accordion>
           {starterList.map((food, index) => {
             return (
@@ -38,7 +38,7 @@ const DisplayMenuItems = (params) => {
             );
           })}
         </Accordion></>}
-        {mainList.length > 0 && <><h2>Mains</h2>
+        {mainList.length > 0 && <><h4>Mains</h4>
         <Accordion>
           {mainList.map((food, index) => {
             return (
@@ -51,7 +51,7 @@ const DisplayMenuItems = (params) => {
             );
           })}
         </Accordion></>}
-        {dessertList.length > 0 && <><h2>Desserts</h2>
+        {dessertList.length > 0 && <><h4>Desserts</h4>
         <Accordion>
           {dessertList.map((food, index) => {
             return (

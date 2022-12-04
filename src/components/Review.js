@@ -18,10 +18,12 @@ const Review = (params) => {
     const average = params.food?.review?.reduce((total,next) => total+next,0)/params.food?.review?.length
     const totalStars = 5
   return (
-    <Accordion.Body>
-    <div>Review
-        {params.food?.review?.length > 0 && <div><p>Average Ratings</p><Stars average={average}/></div>}
+    <Accordion.Body className="accordion-color">
+      <p id="review-heading">Review</p>
+    <div>
+        {params.food?.review?.length > 0 && <div><p id="averagerating">Average Ratings</p><Stars average={average}/></div>}
         <div>
+        <p id="selectrating">Select rating</p>
       {createArray(totalStars).map((n, i) => (
         <Star
           key={i}
@@ -36,7 +38,7 @@ const Review = (params) => {
         {selectedStars} of {totalStars} stars
       </p>
     </div>
-    <button onClick={()=>handleClick()} disabled={selectedStars === 0}>Add Review</button>
+    <button className="button-style" onClick={()=>handleClick()} disabled={selectedStars === 0}>Add Review</button>
     </div>
     </Accordion.Body>
   )

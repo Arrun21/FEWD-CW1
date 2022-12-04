@@ -11,10 +11,12 @@ const MenuItem = (params) => {
   }
 
   return (
-    <div>
+    <div className="accordion-color">
       <Accordion.Header>{food.name}</Accordion.Header>
       <Accordion.Body>
-        <button onClick={()=>handleClick()}>Remove from menu</button>
+        <button className="button-style" onClick={()=>handleClick()}>Remove from menu</button>
+        <br></br>
+        <br></br>
         <p id="category">{food.category}</p>
         <p><strong>Time: </strong>{food.time} mins</p>
         <p><strong>Serves: </strong>{food.serves}</p>

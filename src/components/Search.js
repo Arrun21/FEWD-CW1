@@ -8,14 +8,17 @@ import MenuItem from "./MenuItem";
 
 const CheckBox = (props) => {
     return (
-        <div>
+        <div className="checboxdiv">
+        <div className="checkbox-switch">
             <input
                 type="checkbox"
+                className="switch"
                 checked={props.checked}
                 onChange={e => props.onChange(!props.checked)}
                 name={props.name}
                 disabled={props.disabled}
             />
+        </div>
         </div>
     )
 }
@@ -82,7 +85,7 @@ function Search({ details }) {
         return (
             <div className="wrapper">
                 <div className="dishContainer">
-                <h1>Recipes</h1>
+                <h2>Recipes</h2>
                 <div>
                     <input
                         className="form-control"
@@ -91,22 +94,23 @@ function Search({ details }) {
                         onChange={(e) => setSearchField(e.target.value)}
                     />
                     <h4>Filter By</h4>
-                    {"ginger"}
+                    {"Ginger"}
                     <CheckBox checked={ingredient1} onChange={setIngredient1} name={"ginger"} disabled={ingredient2||ingredient3||ingredient4} />
-                    {"onions"}
+                    {"Onions"}
                     <CheckBox checked={ingredient2} onChange={setIngredient2} name={"onions"} disabled={ingredient1||ingredient3||ingredient4} />
-                    {"prawns"}
+                    {"Prawns"}
                     <CheckBox checked={ingredient3} onChange={setIngredient3} name={"prawns"} disabled={ingredient2||ingredient1||ingredient4}/>
-                    {"nuts"}
+                    {"Nuts"}
                     <CheckBox checked={ingredient4} onChange={setIngredient4} name={"nuts"} disabled={ingredient2||ingredient3||ingredient1}/>
                 </div>
+                <br></br>
                 <DisplayFoodItems foodList={finalData} addtomenu={setMenuData} addtoshopping={setShoppingList} menu={MenuData} shoppingList={ShoppingList}/>
                 </div>
                 <div className="MenuContainer">
-                {MenuData.length > 0 && <><h1>Menu</h1><DisplayMenuItems foodList={MenuData} addtomenu={setMenuData}/></>}
+                {MenuData.length > 0 && <><h2>Menu</h2><DisplayMenuItems foodList={MenuData} addtomenu={setMenuData}/></>}
                 </div>
                 <div className="ShoppingContainer">
-                {ShoppingList.length > 0 && <><h1>Shopping List</h1><DisplayShoppingList foodList={ShoppingList} addtomenu={setShoppingList}/></>}   
+                {ShoppingList.length > 0 && <><h2>Shopping List</h2><DisplayShoppingList foodList={ShoppingList} addtomenu={setShoppingList}/></>}   
                 </div>
             </div>
         );

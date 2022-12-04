@@ -11,10 +11,10 @@ const ShoppingItem = (params) => {
   }
 
   return (
-    <div>
+    <div className="accordion-color">
       <Accordion.Header>{food.name}</Accordion.Header>
       <Accordion.Body>
-        <button onClick={()=>handleClick()}>Remove from shopping list</button>
+        <button className="button-style" onClick={()=>handleClick()}>Remove from shopping list</button>
       </Accordion.Body>
     </div>
   );
