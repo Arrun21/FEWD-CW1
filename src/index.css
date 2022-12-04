@@ -60,7 +60,7 @@ code {
 }
 
 .accordion-color{
-  background-color: #ffff;
+  background-color: #fffcec;
 }
 
 
@@ -305,4 +305,8 @@ code {
   display: inline-block;
   margin-left:20px;
   font-family:fantasy;
+}
+
+#accordionheader{
+  color:red;
 }
