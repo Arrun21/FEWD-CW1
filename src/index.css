@@ -62,8 +62,18 @@ code {
 .accordion-color{
   background-color: #fffcec;
 }
+/*accordion header*/
+.accordion-button {
+  background-color: #ffcba5!important;
+}
 
+.accordion-button:focus {
+box-shadow: none;
+}
 
+.accordion-button:not(.collapsed) {
+color: #ffcba5;
+}
 
 /*button*/
 .button-style {
