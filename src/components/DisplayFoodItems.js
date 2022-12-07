@@ -8,10 +8,7 @@ import Review from "./Review";
 const DisplayFoodItems = (params) => {
   const [searchField, setSearchField] = useState("");
   
-  // const handleClick = (e) => {
-  //   setSearchField(e.target.innerHTML);
-  //   console.log(searchField);
-  // };
+
 const foodList = params.foodList;
 
   return (

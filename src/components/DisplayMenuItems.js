@@ -8,10 +8,7 @@ import MenuItem from "./MenuItem";
 const DisplayMenuItems = (params) => {
   const [searchField, setSearchField] = useState("");
 
-  // const handleClick = (e) => {
-  //   setSearchField(e.target.innerHTML);
-  //   console.log(searchField);
-  // };
+
   const foodList = params.foodList;
   const starterList = foodList.filter((item) => {
     return item.category === "Starter"
@@ -68,19 +65,6 @@ const DisplayMenuItems = (params) => {
   );
 
 
-  // return (
-  //   <Accordion>
-  //     {foodList.map((food, index) => {
-  //       return (
-  //         <Accordion.Item eventKey={index} key={index} >
-  //           <MenuItem food={food} list={params.foodList}addtomenu={params.addtomenu}/>
-  //           {food.ingredients.map((ingre) => {
-  //           return <Ingredient ingredient={ingre} />;
-  //           })}
-  //         </Accordion.Item>
-  //       );
-  //     })}
-  //   </Accordion>
-  // );
+
 };
 export default DisplayMenuItems;
