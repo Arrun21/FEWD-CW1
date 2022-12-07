@@ -200,7 +200,7 @@ export const items = [
     ingredients: [{
       ingredientName: 'olive oil',
       quantity: 14,
-      measure: 'tbsp'
+      measure: 'grams'
     },
     {
       ingredientName: 'onions',
@@ -373,7 +373,7 @@ export const items = [
     {
       ingredientName: 'olive oil',
       quantity: 41,
-      measure: 'tbsp'
+      measure: 'grams'
     },
     {
       ingredientName: 'fresh coriander',
