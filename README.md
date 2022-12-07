@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Changes to design
+
+After discussion with lecturer about the development plan I have to decided to make the following changes to my web app:
+-I decided to display recipes,menus and shopping list on a single page instead of using routes as I wanted to display shopping list on the side of the page so the user would always be able to check what ingredients to buy
+-I decided to remove images from my design as I decided to include description instead for each recipe which was added to my data structure
+-I also decided to update my data structure to include ratings and reviews
+-For each recipe I decided to add it to an accordion like how I designed the menu and shopping list
+-For shopping list instead of a checkbox for each ingredient, I grouped the ingredients per recipe allowing the user to remove the ingredients per recipe
+
+## List of features that have been implemented
+-For the checkbox I decided to make it into a toggle switch
+-For review I decided to add a textbox which allows users to add in text
+-Ratings and review are displayed each time a user adds in a new rating and review
+-Added in average rating that displays the average rating depending on the users rating for that specific recipe
