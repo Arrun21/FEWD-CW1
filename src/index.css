@@ -316,3 +316,9 @@ color: #ffcba5;
   margin-left:20px;
   font-family:fantasy;
 }
+
+#textbox{
+  height:100px;
+  width:380px;
+  margin-bottom: 10px;
+}

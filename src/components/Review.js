@@ -49,7 +49,7 @@ const Review = (params) => {
       <p>
         {selectedStars} of {totalStars} stars
       </p>
-      <textarea value={reviewText} onChange={(e)=>setReviewText(e.target.value)}/>
+      <textarea id="textbox"value={reviewText} onChange={(e)=>setReviewText(e.target.value)}/>
     </div>
     <button className="button-style" onClick={()=>handleClick()} disabled={selectedStars === 0 || reviewText === ""}>Add Review</button>
     </div>
