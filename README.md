@@ -3,7 +3,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+Clone the git repository or download a zip file
+Then do
+### `npm install`
 
+To install all the neccessary files
 In the project directory, you can run:
 
 ### `npm start`
@@ -79,6 +83,7 @@ After discussion with lecturer about the development plan I have to decided to m
 -For shopping list instead of a checkbox for each ingredient, I grouped the ingredients per recipe allowing the user to remove the ingredients per recipe
 
 ## List of features that have been implemented
+-The checkbox is able to filter by ingredients\
 -For the checkbox I decided to make it into a toggle switch\
 -For review I decided to add a textbox which allows users to add in text\
 -Ratings and review are displayed each time a user adds in a new rating and review\
