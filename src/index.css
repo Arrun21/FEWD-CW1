@@ -319,6 +319,75 @@ color: #ffcba5;
 
 #textbox{
   height:100px;
-  width:380px;
+  width:100%;
   margin-bottom: 10px;
+}
+/*Mobile*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    gap: 30px;
+  }
+  
+  .dishContainer{
+    flex: 1;
+  }
+  
+  .MenuContainer{
+    flex: 1;
+  }
+  
+  .ShoppingContainer{
+    flex: 1;
+  }
+
+  .checboxdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #textbox{
+    height:100px;
+    width:100%;
+    margin-bottom: 10px;
+  }
+
+  .button-shopping{
+    margin-top:10px;
+    margin-left:-1px;
+  }
+}
+/*Tablet*/
+@media only screen and (min-device-width: 600px) and (max-device-width: 1025px) {
+
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    gap: 30px;
+  }
+  
+  .dishContainer{
+    flex: 1;
+  }
+  
+  .MenuContainer{
+    flex: 1;
+  }
+  
+  .ShoppingContainer{
+    flex: 1;
+  }
+
+  #textbox{
+    height:100px;
+    width:100%;
+    margin-bottom: 10px;
+  }
+
 }
