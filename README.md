@@ -84,6 +84,7 @@ After discussion with lecturer about the development plan I have to decided to m
 
 ## List of features that have been implemented
 -Search bar is able to search for certain recipes\
+-Clicking on each recipe will display the nutritional information\
 -Buttons to create menu and shoppinglist\
 -Buttons to delete certain menus and shoppinglist\
 -The checkbox is able to filter by ingredients\
