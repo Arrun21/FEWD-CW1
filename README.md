@@ -92,3 +92,6 @@ After discussion with lecturer about the development plan I have to decided to m
 -For review I decided to add a textbox which allows users to add in text\
 -Ratings and review are displayed each time a user adds in a new rating and review\
 -Added in average rating that displays the average rating depending on the users rating for that specific recipe
+
+## Link to a live version of the app
+https://powerful-crag-58053.herokuapp.com/
