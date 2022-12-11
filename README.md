@@ -3,11 +3,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-Clone the git repository or download a zip file
-Then do
+Clone the git repository or download a zip file\
+Then do\
 ### `npm install`
 
-To install all the neccessary files
+To install all the neccessary files\
 In the project directory, you can run:
 
 ### `npm start`
