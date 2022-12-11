@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 Clone the git repository or download a zip file\
-Then open up in visual studio code and in the terminal enter
+Then in visual studio code on the terminal enter
 ### `npm install`
 
 To install all the neccessary files\
